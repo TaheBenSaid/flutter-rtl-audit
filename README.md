@@ -5,7 +5,7 @@ Finds the right-to-left bugs that break a Flutter app in Arabic, Hebrew, Persian
 It works two ways:
 
 - as a plain Dart script you run from the terminal or in CI,
-- as an agent skill, so Claude Code (or any agent that supports the Agent Skills format) can run it and fix things for you.
+- as an agent skill, so any coding agent that supports the Agent Skills format can run it and fix things for you.
 
 ## Run it
 
@@ -51,13 +51,13 @@ Comments, strings and generated files (`*.g.dart`, `*.freezed.dart`, `app_locali
 
 ## Use it as a skill
 
-Clone it straight into your skills directory:
+Clone it straight into your agent's skills folder, for example:
 
 ```bash
 git clone https://github.com/TaheBenSaid/flutter-rtl-audit.git ~/.claude/skills/flutter-rtl-audit
 ```
 
-Or into `.claude/skills/` inside one project. Then ask something like "check this app for RTL bugs" or "make this screen work in Arabic". The skill runs the scanner, applies the safe fixes, runs `flutter analyze`, and walks through the rest with you: plurals in ARB files, which icons should flip, phone numbers inside Arabic text.
+Or into the skills folder inside one project. Then ask something like "check this app for RTL bugs" or "make this screen work in Arabic". The skill runs the scanner, applies the safe fixes, runs `flutter analyze`, and walks through the rest with you: plurals in ARB files, which icons should flip, phone numbers inside Arabic text.
 
 ## Use it in CI
 
