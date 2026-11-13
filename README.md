@@ -5,7 +5,7 @@ Finds the right-to-left bugs that break a Flutter app in Arabic, Hebrew, Persian
 It works two ways:
 
 - as a plain Dart script you run from the terminal or in CI,
-- as an agent skill, so any coding agent that supports the Agent Skills format can run it and fix things for you.
+- as an agent skill, so Claude Code (or any agent that supports the Agent Skills format) can run it and fix things for you.
 
 ## Run it
 
