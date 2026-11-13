@@ -1,5 +1,7 @@
 # flutter-rtl-audit
 
+![Arabic chat screen before and after flutter-rtl-audit --fix](docs/banner.png)
+
 Finds the right-to-left bugs that break a Flutter app in Arabic, Hebrew, Persian and Urdu, and fixes the safe ones automatically.
 
 It works two ways:
