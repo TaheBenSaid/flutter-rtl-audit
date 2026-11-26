@@ -1,5 +1,7 @@
 # flutter-rtl-audit
 
+_By [Tahe Ben Said](https://tahebensaid.dev), senior mobile engineer. More apps and tools at [tahebensaid.dev](https://tahebensaid.dev)._
+
 ![Arabic chat screen before and after flutter-rtl-audit --fix](docs/banner.png)
 
 Finds the right-to-left bugs that break a Flutter app in Arabic, Hebrew, Persian and Urdu, and fixes the safe ones automatically.
